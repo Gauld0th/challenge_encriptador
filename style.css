@@ -1,0 +1,72 @@
+.bodychg{
+    background-image: url(images/NSA-Crypto-Backdoor-1024x768.jpg);
+    background-repeat: no-repeat;
+    background-size: 1920px 1080px;
+   
+}
+
+.inserttext{
+    background: fixed;
+    position: absolute;
+    top: 45%;
+    left: 0;
+    width: 400px;
+    height: 100px;
+    border: none;
+    color: white;
+    font-size: 20px;
+}
+
+.inserttext::placeholder{
+    font-size: 25px;
+    color: cornflowerblue;
+}
+
+.getresult{
+    background: fixed;
+    position: absolute;
+    width: 400px;
+    height: 600px;
+    top: 10%;
+    left: 75%;
+    resize: none;
+    font-size: 20px;
+    color: cornflowerblue;
+    border-radius: 10px;
+    border-width: 5px;
+    border-color: darkblue;
+}
+
+.buttonencriptar{
+    background-color: cornflowerblue;
+    position: absolute;
+    top: 70%;
+    left: 15%;
+    width: 300px;
+    height: 70px;
+    font-size: 20px;
+    color: black;
+    border-radius: 10px;
+}
+.buttondesencriptar{
+    background-color: cornflowerblue;
+    position: absolute;
+    top: 85%;
+    left: 15%;
+    width: 300px;
+    height: 70px;
+    font-size: 20px;
+    color: black;
+    border-radius: 10px;
+}
+.buttoncopiar{
+    background-color: cornflowerblue;
+    position: absolute;
+    top: 80%;
+    left: 78%;
+    width: 300px;
+    height: 70px;
+    font-size: 20px;
+    color: black;
+    border-radius: 10px;
+}
