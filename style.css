@@ -70,3 +70,11 @@
     color: black;
     border-radius: 10px;
 }
+
+.rodapie{
+    position: absolute;
+    top: 97%;
+    left: 1%;
+    font-size: 20px;
+    color: red;
+}
