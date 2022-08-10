@@ -1,5 +1,6 @@
 document.querySelector(".buttonEncriptar").onclick = encryptMsg;
 document.querySelector(".buttonDesencriptar").onclick = decryptMsg;
+document.querySelector(".buttonCopiar").onclick = copy;
 
 function parseMsg(match, replacement) {
     const text = document.querySelector(".insertText").value 
@@ -21,4 +22,10 @@ function encryptMsg() {
 
 function validate(text){
     return (/([^a-z\ñ\s])/g.test(text) == false);
+}
+
+function copy() {
+    var copyToClip = document.getElementById("copyToClipboard").value;
+    navigator.clipboard.writeText(copyToClip);
+    alert("Texto copiado!");
 }
