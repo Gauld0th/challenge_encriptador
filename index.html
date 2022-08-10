@@ -13,20 +13,34 @@
     </head>
 
     <body class="bodyChg">
-         <div class="divBody1">   
+        <div class="divBody1">   
             <textarea class="insertText" cols="70" rows="10" placeholder="Inserte el texto a encriptar. SOLO MINUSCULA, SIN ACENTOS NI CARACTERES ESPECIALES"></textarea>
                            
             <button class="buttonEncriptar">Encriptar!</button>
 
             <button class="buttonDesencriptar">Desencriptar!</button>
-         </div>
+        </div>
         
+        <div id="hiddenTextarea">
+            <textarea class="beforeResult" cols="40" rows="30" readonly>
+                
+                
+                
+                
+                
+                            
+                
+                           No hay ningun mensaje todavia!
 
-        <div>
-            <textarea class="getResult" cols="40" rows="30" id="copyToClipboard"></textarea>
             
+            
+            
+            </textarea>
+        </div>
 
-            <button class="buttonCopiar">Copiar</button>
+        <div id="hiddenTextarea2">
+            <textarea class="getResult" cols="40" rows="30" id="copyToClipboard"></textarea>
+            <button id="hiddenButton" class="buttonCopiar">Copiar</button>
         </div>
 
         <script src="script.js"></script>

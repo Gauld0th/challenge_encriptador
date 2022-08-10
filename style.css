@@ -1,11 +1,11 @@
-.bodychg{
+.bodyChg{
     background-image: url(images/NSA-Crypto-Backdoor-1024x768.jpg);
     background-repeat: no-repeat;
     background-size: 1920px 1080px;
    
 }
 
-.inserttext{
+.insertText{
     background: fixed;
     position: absolute;
     top: 45%;
@@ -17,12 +17,26 @@
     font-size: 20px;
 }
 
-.inserttext::placeholder{
+.insertText::placeholder{
     font-size: 25px;
     color: cornflowerblue;
 }
+.beforeResult{
+    background-image: url(images/Criptografia.webp);
+    background-repeat: no-repeat;
+    background-position: 55% 20%;
+    background-size: auto;
+    position: absolute;
+    width: 500px;
+    height: 750px;
+    top: 10%;
+    left: 73%;
+    resize: none;
+    font-size: 40px;
+    color: red;
+}
 
-.getresult{
+.getResult{
     background: fixed;
     position: absolute;
     width: 400px;
@@ -31,13 +45,13 @@
     left: 75%;
     resize: none;
     font-size: 20px;
-    color: cornflowerblue;
+    color: white;
     border-radius: 10px;
     border-width: 5px;
     border-color: darkblue;
 }
 
-.buttonencriptar{
+.buttonEncriptar{
     background-color: cornflowerblue;
     position: absolute;
     top: 70%;
@@ -48,7 +62,13 @@
     color: black;
     border-radius: 10px;
 }
-.buttondesencriptar{
+.buttonEncriptar:hover{
+    background: cornflowerblue;
+    transform: scale(1.2);
+    opacity: 0.8;
+    transition: 400ms;
+}
+.buttonDesencriptar{
     background-color: cornflowerblue;
     position: absolute;
     top: 85%;
@@ -59,7 +79,13 @@
     color: black;
     border-radius: 10px;
 }
-.buttoncopiar{
+.buttonDesencriptar:hover{
+    background: cornflowerblue;
+    transform: scale(1.2);
+    opacity: 0.8;
+    transition: 400ms;
+}
+.buttonCopiar{
     background-color: cornflowerblue;
     position: absolute;
     top: 80%;
@@ -70,6 +96,13 @@
     color: black;
     border-radius: 10px;
 }
+.buttonCopiar:hover{
+    background: cornflowerblue;
+    transform: scale(1.2);
+    opacity: 0.8;
+    transition: 400ms;
+}
+
 
 .rodapie{
     position: absolute;
