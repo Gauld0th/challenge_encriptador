@@ -115,6 +115,7 @@
 @media screen and (max-width: 1000px) {
     .bodyChg{
         background-image: url(images/NSA-Crypto-Backdoor-1024x768.jpg);
+        background-repeat: repeat-y;
         position: relative;
         width: 768px;
         height: 1174px;
