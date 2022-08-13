@@ -114,32 +114,8 @@
 
 @media screen and (max-width: 1000px) {
     .bodyChg{
-        background-image: url(images/NSA-Crypto-Backdoor-1024x768.jpg);
         background-repeat: repeat-y;
-        position: relative;
-        width: 768px;
-        height: 1174px;
-    }
-    .insertText{
-        position: absolute;
-        top: 30%;
-    }
-    .buttonEncriptar{
-        position: absolute;
-        top: 60%;
-    }
-    .buttonDesencriptar{
-        position: absolute;
-        top: 70%;
-    }
-    .buttonCopiar{
-        position: absolute;
-        top: 70%;
-        left: 80%;
-    }
-
-    footer{
-        position: relative;
-        top: 90%;
+        display: block;
+       
     }
 }
